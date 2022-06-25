@@ -1,0 +1,87 @@
+:root[color-theme="pink"]{
+    --background: #ffb6ea;
+    --boxColor: #fff;
+}
+
+:root[color-theme="dark"]{
+    --background: #000;
+    --boxColor: #2f2f2f;
+}
+
+/* 위에껀 변수선언해서 다크모드,핑크모드 바꾸기 */
+
+
+.bold{
+    font-weight: bold;
+}
+
+.whiteFont{
+    color: #fff;
+}
+
+.whiteBackground{
+    background-color: var(--boxColor);
+}
+
+.fontsize2rem{
+    font-size: 2rem;
+}
+
+.fontsize5rem{
+    font-size: 5rem;
+}
+
+.fontsize7rem{
+    font-size: 7rem;
+}
+
+.fontsize8rem{
+    font-size: 8rem;
+}
+
+.fontsize10rem{
+    font-size: 10rem;
+}
+
+.fontsize15rem{
+    font-size: 15rem;
+}
+
+.line80{
+    line-height: 80%;
+}
+
+.whiteboxWidth{
+    width: 20rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.whiteBox7rem{
+    height: 7rem;
+}
+
+.whiteBox13rem{
+    height: 13rem;
+}
+
+.whiteBox17rem{
+    height: 17rem;
+}
+
+.whiteBox20rem{
+    height: 20rem;
+}
+
+.centerTextBox10{
+    padding: 1.5rem;
+    width: 100%;
+    font: 15rem;
+    text-align: center;
+}
+
+.subject{
+    padding-top: 2rem;
+    padding-left: 6rem;
+}
